@@ -1,0 +1,50 @@
+    /* Unidades Relativas al Elemento Padre */
+    .container {
+        width: 50%;
+        /* El ancho será el 50% del ancho del elemento padre */
+        height: 30%;
+        /* La altura será el 30% de la altura del elemento padre */
+        border: 1px solid black;
+    }
+
+    /* Unidades Relativas al Tamaño de Fuente */
+    .font-relative {
+        font-size: 20px;
+        /* Tamaño de fuente base para el elemento */
+        padding: 1em;
+        /* El padding será de 20px (1em x 20px) */
+        margin: 2rem;
+        /* El margen será de 40px (2rem x 20px) */
+    }
+
+    /* Unidades Relativas al Viewport */
+    .viewport-relative {
+        width: 30vw;
+        /* El ancho será el 30% del ancho del viewport */
+        height: 20vh;
+        /* La altura será el 20% del alto del viewport */
+        font-size: 4vmax;
+        /* El tamaño de fuente será el 4% del lado más grande del viewport */
+        margin: 2vmin;
+        /* El margen será el 2% del lado más pequeño del viewport */
+    }
+
+    /* Unidades Absolutas */
+    .absolute-pixel {
+        width: 200px;
+        /* Ancho fijo de 200 píxeles */
+        height: 150px;
+        /* Altura fija de 150 píxeles */
+    }
+
+    /* Unidad de Medida de Altura del Tamaño de Fuente */
+    .font-height {
+        font-size: 24px;
+        /* Tamaño de fuente base para el elemento */
+        height: 1.5eh;
+        /* Altura será de 36px (24px x 1.5) */
+        line-height: 1.5;
+        /* Ajuste adicional para que coincida con la altura */
+        background-color: lightblue;
+        padding: 10px;
+    }
